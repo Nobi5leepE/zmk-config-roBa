@@ -91,7 +91,7 @@
 &kp LCTRL                   &trans  &trans  &mt LEFT_ALT LANG2  &mt LEFT_GUI LANG1  &lt 2 SPACE      &kp BACKSPACE                &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(KP_MINUS) LC(KP_PLUS)>;
+            sensor-bindings = <&inc_dec_kp LC(MINUS) LC(EQUAL)>;
         };
 
         FUNCTION {
