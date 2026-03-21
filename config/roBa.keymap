@@ -78,20 +78,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-
-        tap_dance_A: tap_dance_A {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_A";
-            #binding-cells = <0>;
-            bindings = <&mt LEFT_CONTROL A>, <&kp LC(A)>;
-        };
-
-        tap_dance_Z: tap_dance_Z {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Z";
-            #binding-cells = <0>;
-            bindings = <&mt LEFT_SHIFT Z>, <&kp LC(Z)>;
-        };
     };
 
     keymap {
