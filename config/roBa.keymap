@@ -85,10 +85,10 @@
 
         default_layer {
             bindings = <
-&mt LS(LC(LG(NUMBER_4))) Q  &kp W   &kp E   &kp R               &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_CONTROL A          &kp S   &kp D   &kp F               &kp G               &kp F4           &mt LC(PAGE_DOWN) LC(PG_UP)  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z            &kp X   &kp C   &kp V               &kp B               &kp ESCAPE       &kp LS(LG(LEFT_ARROW))       &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL                   &trans  &trans  &mt LEFT_ALT LANG2  &mt LEFT_GUI LANG1  &lt 2 SPACE      &kp BACKSPACE                &lt 1 ENTER                             &kp DEL
+&mt LS(LC(LG(NUMBER_4))) Q  &kp W   &kp E   &kp R               &kp T                                                        &kp Y                     &kp U  &lt 5 I    &kp O    &kp P
+&kp A                       &kp S   &kp D   &kp F               &kp G      &kp F4               &mt LC(PAGE_DOWN) LC(PG_UP)  &kp H                     &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z            &kp X   &kp C   &kp V               &kp B      &kp ESCAPE           &kp LS(LG(LEFT_ARROW))       &kp N                     &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&trans                      &trans  &trans  &mt LEFT_GUI LANG2  &kp SPACE  &lt 2 BACKSPACE      &lt 1 ENTER                  &mt RIGHT_GUI LANGUAGE_1                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp LC(MINUS) LC(SEMI)>;
@@ -96,10 +96,10 @@
 
         FUNCTION {
             bindings = <
-&kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                    &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(N8)        &kp LS(N9)           &kp LS(N0)
-&kp F7             &kp F8            &kp F9            &kp F10           &kp F11       &kp F12          &trans         &kp MINUS         &kp EQUAL          &kp LEFT_BRACKET  &kp SEMI             &kp APOS
-&mt LEFT_SHIFT F1  &kp F2            &kp F3            &kp F4            &kp F5        &kp F6           &trans         &kp GRAVE         &kp RIGHT_BRACKET  &kp BACKSLASH     &kp INTERNATIONAL_1  &kp INTERNATIONAL_3
-&trans             &trans            &trans            &kp LEFT_ALT      &kp LEFT_GUI  &lt 6 LS(B)      &kp BACKSPACE  &trans                                                                      &trans
+&kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                             &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(N8)        &kp LS(N9)           &kp LS(N0)
+&kp F7             &kp F8            &kp F9            &kp F10           &kp F11       &kp F12          &trans  &kp MINUS         &kp EQUAL          &kp LEFT_BRACKET  &kp SEMI             &kp APOS
+&mt LEFT_SHIFT F1  &kp F2            &kp F3            &kp F4            &kp F5        &kp F6           &trans  &kp GRAVE         &kp RIGHT_BRACKET  &kp BACKSLASH     &kp INTERNATIONAL_1  &kp INTERNATIONAL_3
+&trans             &trans            &trans            &kp LEFT_ALT      &kp LEFT_GUI  &lt 6 LS(B)      &trans  &kp RIGHT_GUI                                                               &trans
             >;
         };
 
