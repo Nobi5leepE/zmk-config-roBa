@@ -20,13 +20,18 @@
         layers = <7>;
         bindings =
             <&kp LA(RIGHT_ARROW)>,
+            ,,
             /* 右: Option + → */,
             <&kp LA(LEFT_ARROW)>,
+            ,,
             /* 左: Option + ← */,
             <&kp LG(LA(UP_ARROW))>,
+            ,,
             /* 上: Cmd + Option + ↑ */,
             <&kp LG(LA(DOWN_ARROW))>;
- /* 下: Cmd + Option + ↓ */
+
+        /* 下: Cmd + Option + ↓ */
+
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -38,13 +43,18 @@
         layers = <8>;
         bindings =
             <&kp LC(TAB)>,
+            ,,
             /* 右: Control + Tab */,
             <&kp LC(LS(TAB))>,
+            ,,
             /* 左: Control + Shift + Tab */,
             <&kp LC(LEFT_ARROW)>,
+            ,,
             /* 上: Control + ← */,
             <&kp LC(RIGHT_ARROW)>;
-    /* 下: Control + → */
+
+        /* 下: Control + → */
+
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -75,7 +85,7 @@
             key-positions = <13 12>;
         };
 
-        layer_9 {
+        ballgesture {
             bindings = <&lt 9 F24>;
             key-positions = <7 8>;
         };
