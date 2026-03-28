@@ -22,7 +22,7 @@
             <&kp LA(LEFT_ARROW)>,     /* 左: Option + ← */
             <&kp LG(LA(UP_ARROW))>,   /* 上: Cmd + Option + ↑ */
             <&kp LG(LA(DOWN_ARROW))>; /* 下: Cmd + Option + ↓ */
-        tick = <300>;
+        tick = <900>;
         wait-ms = <5>;
         tap-ms = <5>;
     };
@@ -35,7 +35,7 @@
             <&kp LC(LS(TAB))>,        /* 右: Control + Shift + Tab */
             <&kp LC(LEFT_ARROW)>,     /* 上: Control + ← */
             <&kp LC(RIGHT_ARROW)>;    /* 下: Control + → */
-        tick = <300>;
+        tick = <900>;
         wait-ms = <5>;
         tap-ms = <5>;
     };
