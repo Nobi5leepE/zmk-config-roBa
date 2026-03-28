@@ -20,13 +20,16 @@
         layers = <7>;
         bindings =
             <&kp LA(RIGHT_ARROW)>,
-            ,,
+            ,
+            ,,,
             /* 右: Option + → */,
             <&kp LA(LEFT_ARROW)>,
-            ,,
+            ,
+            ,,,
             /* 左: Option + ← */,
             <&kp LG(LA(UP_ARROW))>,
-            ,,
+            ,
+            ,,,
             /* 上: Cmd + Option + ↑ */,
             <&kp LG(LA(DOWN_ARROW))>;
 
@@ -43,13 +46,16 @@
         layers = <8>;
         bindings =
             <&kp LC(TAB)>,
-            ,,
+            ,
+            ,,,
             /* 右: Control + Tab */,
             <&kp LC(LS(TAB))>,
-            ,,
+            ,
+            ,,,
             /* 左: Control + Shift + Tab */,
             <&kp LC(LEFT_ARROW)>,
-            ,,
+            ,
+            ,,,
             /* 上: Control + ← */,
             <&kp LC(RIGHT_ARROW)>;
 
@@ -86,8 +92,8 @@
         };
 
         ballgesture {
-            bindings = <&lt 9 F24>;
-            key-positions = <7 8>;
+            bindings = <&mo 9>;
+            key-positions = <8 7>;
         };
     };
 
