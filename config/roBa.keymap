@@ -31,8 +31,8 @@
     arrows_2 {
         layers = <8>;
         bindings = 
-            <&kp LC(TAB)>,            /* 左: Control + Tab */
-            <&kp LC(LS(TAB))>,        /* 右: Control + Shift + Tab */
+            <&kp LC(TAB)>,            /* 右: Control + Tab */
+            <&kp LC(LS(TAB))>,        /* 左: Control + Shift + Tab */
             <&kp LC(LEFT_ARROW)>,     /* 上: Control + ← */
             <&kp LC(RIGHT_ARROW)>;    /* 下: Control + → */
         tick = <1000>;
