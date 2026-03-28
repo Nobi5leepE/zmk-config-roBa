@@ -33,8 +33,9 @@
         bindings = 
             <&kp LC(TAB)>,            /* 右: Control + Tab */
             <&kp LC(LS(TAB))>,        /* 左: Control + Shift + Tab */
-            <&kp LC(LEFT_ARROW)>,     /* 上: Control + ← */
-            <&kp LC(RIGHT_ARROW)>;    /* 下: Control + → */
+            <&kp LC(W)>,              /* 上: Control + W */
+            <&kp LC(T)>,              /* 下: Control + T */
+
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -44,8 +45,8 @@
     arrows_3 {
         layers = <9>;
         bindings = 
-            <&kp LC(W)>,              /* 右: Control + W */
-            <&kp LC(T)>,              /* 左: Control + T */
+            <&kp LC(RIGHT_ARROW)>;    /* 右: Control + ← */
+            <&kp LC(LEFT_ARROW)>,     /* 左: Control + → */
             <&kp LC(UP_ARROW)>,       /* 上: Control + ↑ */
             <&kp LG(LA(L))>;          /* 下: Command + Option + L */
         tick = <1000>;
