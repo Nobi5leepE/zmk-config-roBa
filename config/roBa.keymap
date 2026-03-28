@@ -30,12 +30,12 @@
     /* ▼ 「- (レイヤー8)」を押しながらのジェスチャー ▼ */
     arrows_2 {
         layers = <8>;
-        bindings =
-            <&kp LC(LS(TAB))>,        /* 右: Control + Shift + Tab */
+        bindings = 
             <&kp LC(TAB)>,            /* 左: Control + Tab */
+            <&kp LC(LS(TAB))>,        /* 右: Control + Shift + Tab */
             <&kp LC(LEFT_ARROW)>,     /* 上: Control + ← */
             <&kp LC(RIGHT_ARROW)>;    /* 下: Control + → */
-        tick = <10>;
+        tick = <200>;
         wait-ms = <5>;
         tap-ms = <5>;
     };
