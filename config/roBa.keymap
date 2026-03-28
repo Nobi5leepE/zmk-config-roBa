@@ -34,7 +34,7 @@
             <&kp LC(TAB)>,            /* 右: Control + Tab */
             <&kp LC(LS(TAB))>,        /* 左: Control + Shift + Tab */
             <&kp LC(T)>,              /* 上: Control + T */
-            <&kp LC(LS(T))>;          /* 下: Control + Shift + T */
+            <&kp LC(W)>;              /* 下: Control + W */
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
