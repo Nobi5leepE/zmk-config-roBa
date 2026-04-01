@@ -19,10 +19,14 @@
     arrows_1 {
         layers = <7>;
         bindings =
-            <&kp LA(RIGHT_ARROW)>,    /* 右: Option + → */
-            <&kp LA(LEFT_ARROW)>,    /* 左: Option + ← */
-            <&kp LG(LA(UP_ARROW))>,    /* 上: Cmd + Option + ↑ */
-            <&kp LG(LA(DOWN_ARROW))>;    /* 下: Cmd + Option + ↓ */
+            <&kp LA(RIGHT_ARROW)>,
+            /* 右: Option + → */,
+            <&kp LA(LEFT_ARROW)>,
+            /* 左: Option + ← */,
+            <&kp LG(LA(UP_ARROW))>,
+            /* 上: Cmd + Option + ↑ */,
+            <&kp LG(LA(DOWN_ARROW))>;
+    /* 下: Cmd + Option + ↓ */
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -33,10 +37,14 @@
     arrows_2 {
         layers = <8>;
         bindings =
-            <&kp LC(TAB)>,    /* 右: Control + Tab */
-            <&kp LC(LS(TAB))>,    /* 左: Control + Shift + Tab */
-            <&kp LC(T)>,    /* 上: Control + T */
-            <&kp LC(W)>;    /* 下: Control + W */
+            <&kp LC(TAB)>,
+            /* 右: Control + Tab */,
+            <&kp LC(LS(TAB))>,
+            /* 左: Control + Shift + Tab */,
+            <&kp LC(T)>,
+            /* 上: Control + T */,
+            <&kp LC(W)>;
+    /* 下: Control + W */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -47,10 +55,14 @@
     arrows_3 {
         layers = <9>;
         bindings =
-            <&kp LC(RIGHT_ARROW)>,    /* 右: Control + → */
-            <&kp LC(LEFT_ARROW)>,    /* 左: Control + ← */
-            <&kp LC(UP_ARROW)>,    /* 上: Control + ↑ */
-            <&kp LG(LA(L))>;    /* 下: Command + Option + L */
+            <&kp LC(RIGHT_ARROW)>,
+            /* 右: Control + → */,
+            <&kp LC(LEFT_ARROW)>,
+            /* 左: Control + ← */,
+            <&kp LC(UP_ARROW)>,
+            /* 上: Control + ↑ */,
+            <&kp LG(LA(L))>;
+    /* 下: Command + Option + L */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -123,19 +135,19 @@
 
         FUNCTION {
             bindings = <
-&kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                             &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(N8)        &kp LS(N9)           &kp LS(N0)
-&kp F7             &kp F8            &kp F9            &kp F10           &kp F11       &kp F12          &trans  &kp MINUS         &kp EQUAL          &kp LEFT_BRACKET  &kp SEMI             &kp APOS
-&mt LEFT_SHIFT F1  &kp F2            &kp F3            &kp F4            &kp F5        &kp F6           &trans  &kp GRAVE         &kp RIGHT_BRACKET  &kp BACKSLASH     &kp INTERNATIONAL_1  &kp INTERNATIONAL_3
-&trans             &trans            &trans            &kp LEFT_ALT      &kp LEFT_GUI  &lt 6 LS(B)      &trans  &kp RIGHT_GUI                                                               &trans
+&kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                                    &kp LS(NUMBER_6)  &kp LS(N7)         &kp LS(N8)        &kp LS(N9)           &kp LS(N0)
+&kp F7             &kp F8            &kp F9            &kp F10           &kp F11       &kp F12          &trans         &kp MINUS         &kp EQUAL          &kp LEFT_BRACKET  &kp SEMI             &kp APOS
+&mt LEFT_SHIFT F1  &kp F2            &kp F3            &kp F4            &kp F5        &kp F6           &trans         &kp GRAVE         &kp RIGHT_BRACKET  &kp BACKSLASH     &kp INTERNATIONAL_1  &kp INTERNATIONAL_3
+&trans             &trans            &trans            &kp LEFT_ALT      &kp LEFT_GUI  &lt 6 LS(B)      &kp RIGHT_GUI  &kp RIGHT_ALT                                                               &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp PERIOD       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL                                &trans         &kp HOME        &kp UP_ARROW    &kp END          &trans
-&kp COMMA        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &kp KP_DIVIDE      &trans  &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS      &kp KP_MINUS       &trans  &trans         &kp PG_UP       &trans          &kp PAGE_DOWN    &trans
-&trans           &trans           &trans           &kp LEFT_ALT     &kp LEFT_GUI     &trans             &trans  &kp RIGHT_GUI                                                   &kp RIGHT_ALT
+&kp PERIOD       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL                                       &trans         &kp HOME        &kp UP_ARROW    &kp END          &trans
+&kp COMMA        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &kp KP_DIVIDE      &trans         &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS      &kp KP_MINUS       &trans         &trans         &kp PG_UP       &trans          &kp PAGE_DOWN    &trans
+&trans           &trans           &trans           &kp LEFT_ALT     &kp LEFT_GUI     &trans             &kp RIGHT_GUI  &kp RIGHT_ALT                                                   &trans
             >;
         };
 
