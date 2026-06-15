@@ -13,10 +13,6 @@
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
-    
-    /* ▼ スクロール方向を反転させる設定 ▼ */
-    scroll-y-invert;
-    /* scroll-x-invert; */ /* ※横スクロールも逆にする場合はこのコメントを外してください */
 
     /* ▼ 「O (レイヤー7)」を押しながらのジェスチャー ▼ */
 
