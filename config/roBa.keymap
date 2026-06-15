@@ -22,9 +22,7 @@
             <&kp LA(RIGHT_ARROW)>,　/* 右: Option + → */
             <&kp LA(LEFT_ARROW)>,　/* 左: Option + ← */
             <&kp LG(LA(UP_ARROW))>,　/* 上: Cmd + Option + ↑ */
-            <&kp LG(LA(DOWN_ARROW))>;
-
-        /* 下: Cmd + Option + ↓ */
+            <&kp LG(LA(DOWN_ARROW))>;　/* 下: Cmd + Option + ↓ */
 
         tick = <1000>;
         wait-ms = <5>;
@@ -36,12 +34,10 @@
     arrows_2 {
         layers = <8>;
         bindings =
-            <&kp LC(TAB)>,　/* 右: Control + Tab */,
+            <&kp LC(TAB)>,　/* 右: Control + Tab */
             <&kp LC(LS(TAB))>,　/* 左: Control + Shift + Tab */
             <&kp LC(T)>,　/* 上: Control + T */
-            <&kp LC(W)>;
-
-        /* 下: Control + W */
+            <&kp LC(W)>;　/* 下: Control + W */
 
         tick = <300>;
         wait-ms = <5>;
@@ -56,9 +52,7 @@
             <&kp LC(RIGHT_ARROW)>,　/* 右: Control + → */
             <&kp LC(LEFT_ARROW)>,　/* 左: Control + ← */
             <&kp LC(UP_ARROW)>,　/* 上: Control + ↑ */
-            <&kp LG(LA(L))>;
-
-        /* 下: Command + Option + L */
+            <&kp LG(LA(L))>;　/* 下: Command + Option + L */
 
         tick = <300>;
         wait-ms = <5>;
