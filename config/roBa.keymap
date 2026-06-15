@@ -20,13 +20,18 @@
         layers = <7>;
         bindings =
             <&kp LA(RIGHT_ARROW)>,
+            ,,
             /* 右: Option + → */,
             <&kp LA(LEFT_ARROW)>,
+            ,,
             /* 左: Option + ← */,
             <&kp LG(LA(UP_ARROW))>,
+            ,,
             /* 上: Cmd + Option + ↑ */,
             <&kp LG(LA(DOWN_ARROW))>;
- /* 下: Cmd + Option + ↓ */
+
+        /* 下: Cmd + Option + ↓ */
+
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -38,13 +43,18 @@
         layers = <8>;
         bindings =
             <&kp LC(TAB)>,
+            ,,
             /* 右: Control + Tab */,
             <&kp LC(LS(TAB))>,
+            ,,
             /* 左: Control + Shift + Tab */,
             <&kp LC(T)>,
+            ,,
             /* 上: Control + T */,
             <&kp LC(W)>;
+
         /* 下: Control + W */
+
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -56,13 +66,18 @@
         layers = <9>;
         bindings =
             <&kp LC(RIGHT_ARROW)>,
+            ,,
             /* 右: Control + → */,
             <&kp LC(LEFT_ARROW)>,
+            ,,
             /* 左: Control + ← */,
             <&kp LC(UP_ARROW)>,
+            ,,
             /* 上: Control + ↑ */,
             <&kp LG(LA(L))>;
-       /* 下: Command + Option + L */
+
+        /* 下: Command + Option + L */
+
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -130,7 +145,7 @@
 &kp LG(TAB)                 &kp ESCAPE  &trans  &mt LEFT_CONTROL LANG2  &kp SPACE  &lt 2 BACKSPACE      &lt 1 ENTER                         &mt RIGHT_CONTROL LANGUAGE_1                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PG_UP)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         FUNCTION {
