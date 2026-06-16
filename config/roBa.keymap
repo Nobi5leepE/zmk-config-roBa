@@ -19,10 +19,14 @@
     arrows_1 {
         layers = <7>;
         bindings =
-            <&kp LA(RIGHT_ARROW)>, /* 右: Option + → */
-            <&kp LA(LEFT_ARROW)>, /* 左: Option + ← */
-            <&kp LG(LA(UP_ARROW))>, /* 上: Cmd + Option + ↑ */
-            <&kp LG(LA(DOWN_ARROW))>; /* 下: Cmd + Option + ↓ */
+            <&kp LA(RIGHT_ARROW)>,
+            /* 右: Option + → */,
+            <&kp LA(LEFT_ARROW)>,
+            /* 左: Option + ← */,
+            <&kp LG(LA(UP_ARROW))>,
+            /* 上: Cmd + Option + ↑ */,
+            <&kp LG(LA(DOWN_ARROW))>;
+ /* 下: Cmd + Option + ↓ */
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -33,10 +37,14 @@
     arrows_2 {
         layers = <8>;
         bindings =
-            <&kp LC(TAB)>, /* 右: Control + Tab */
-            <&kp LC(LS(TAB))>, /* 左: Control + Shift + Tab */
-            <&kp LC(T)>, /* 上: Control + T */
-            <&kp LC(W)>; /* 下: Control + W */
+            <&kp LC(TAB)>,
+            /* 右: Control + Tab */,
+            <&kp LC(LS(TAB))>,
+            /* 左: Control + Shift + Tab */,
+            <&kp LC(T)>,
+            /* 上: Control + T */,
+            <&kp LC(W)>;
+ /* 下: Control + W */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -47,10 +55,14 @@
     arrows_3 {
         layers = <9>;
         bindings =
-            <&kp LC(RIGHT_ARROW)>, /* 右: Control + → */
-            <&kp LC(LEFT_ARROW)>, /* 左: Control + ← */
-            <&kp LC(UP_ARROW)>, /* 上: Control + ↑ */
-            <&kp LG(LA(L))>; /* 下: Command + Option + L */
+            <&kp LC(RIGHT_ARROW)>,
+            /* 右: Control + → */,
+            <&kp LC(LEFT_ARROW)>,
+            /* 左: Control + ← */,
+            <&kp LC(UP_ARROW)>,
+            /* 上: Control + ↑ */,
+            <&kp LG(LA(L))>;
+ /* 下: Command + Option + L */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -85,6 +97,21 @@
             bindings = <&mo 9>;
             key-positions = <8 7>;
         };
+
+        BackSpace_R {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 20>;
+        };
+
+        Delete_R {
+            bindings = <&kp DELETE>;
+            key-positions = <19 18>;
+        };
+
+        Enter_R {
+            bindings = <&kp ENTER>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
@@ -115,7 +142,7 @@
 &mt LS(LG(S)) Q   &kp W       &kp E   &kp R                   &kp T                                                               &kp Y                         &kp U  &lt 5 I    &lt 7 O  &kp P
 &kp A             &kp S       &kp D   &kp F                   &kp G      &kp LC(HOME)         &mt LG(RIGHT_ARROW) LG(LEFT_ARROW)  &kp H                         &kp J  &kp K      &kp L    &lt 8 MINUS
 &mt LEFT_SHIFT Z  &kp X       &kp C   &kp V                   &kp B      &kp F12              &kp LG(LS(LEFT_ARROW))              &kp N                         &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LG(TAB)       &kp ESCAPE  &trans  &mt LEFT_CONTROL LANG2  &kp SPACE  &lt 2 BACKSPACE      &lt 1 ENTER                         &mt RIGHT_CONTROL LANGUAGE_1                             &kp BACKSPACE
+&kp LG(TAB)       &kp ESCAPE  &trans  &mt LEFT_CONTROL LANG2  &kp SPACE  &lt 2 BACKSPACE      &lt 1 ENTER                         &mt RIGHT_CONTROL LANGUAGE_1                             &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
