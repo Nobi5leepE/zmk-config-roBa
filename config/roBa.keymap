@@ -47,15 +47,15 @@
     arrows_3 {
         layers = <9>;
         bindings =
-            <&kp LC(RIGHT_ARROW)>, /* 右: Control + → */
-            <&kp LC(LEFT_ARROW)>, /* 左: Control + ← */
-            <&kp LC(UP_ARROW)>, /* 上: Control + ↑ */
-            <&kp LG(LA(L))>; /* 下: Command + Option + L */
+            <&kp LC(PAGE_UP)>,   /* 右: Control + PageUp */
+            <&kp LC(PAGE_DOWN)>, /* 左: Control + PageDown */
+            <&kp LC(UP_ARROW)>,  /* 上: Control + ↑ */
+            <&kp LG(LA(L))>;     /* 下: Command + Option + L */
+
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
     };
-};
 
 / {
     combos {
