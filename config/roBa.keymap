@@ -33,17 +33,17 @@
     arrows_2 {
         layers = <8>;
         bindings =
-            <&kp LC(PAGE_UP)>,   /* 右: Control + PageUp */
-            <&kp LC(PAGE_DOWN)>, /* 左: Control + PageDown */
-            <&kp LC(T)>, /* 上: Control + T */
-            <&kp LC(W)>; /* 下: Control + W */
+            <&kp LC(PAGE_DOWN)>, /* 右: Control + PageDown (右のタブへ) */
+            <&kp LC(PAGE_UP)>,   /* 左: Control + PageUp (左のタブへ) */
+            <&kp LC(T)>,         /* 上: Control + T */
+            <&kp LC(W)>;         /* 下: Control + W */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
     };
 
     /* ▼ 新規追加（レイヤー9）を押しながらのジェスチャー ▼ */
-   arrows_3 {
+    arrows_3 {
         layers = <9>;
         bindings =
             <&kp LC(RIGHT_ARROW)>, /* 右: Control + → */
