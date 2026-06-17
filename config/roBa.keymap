@@ -33,8 +33,8 @@
     arrows_2 {
         layers = <8>;
         bindings =
-            <&kp LC(TAB)>, /* 右: Control + Tab */
-            <&kp LC(LS(TAB))>, /* 左: Control + Shift + Tab */
+            <&kp LC(PAGE_UP)>,   /* 右: Control + PageUp */
+            <&kp LC(PAGE_DOWN)>, /* 左: Control + PageDown */
             <&kp LC(T)>, /* 上: Control + T */
             <&kp LC(W)>; /* 下: Control + W */
         tick = <300>;
@@ -43,20 +43,19 @@
     };
 
     /* ▼ 新規追加（レイヤー9）を押しながらのジェスチャー ▼ */
-
-    arrows_3 {
+   arrows_3 {
         layers = <9>;
         bindings =
-            <&kp LC(PAGE_UP)>,   /* 右: Control + PageUp */
-            <&kp LC(PAGE_DOWN)>, /* 左: Control + PageDown */
-            <&kp LC(UP_ARROW)>,  /* 上: Control + ↑ */
-            <&kp LG(LA(L))>;     /* 下: Command + Option + L */
-
+            <&kp LC(RIGHT_ARROW)>, /* 右: Control + → */
+            <&kp LC(LEFT_ARROW)>, /* 左: Control + ← */
+            <&kp LC(UP_ARROW)>, /* 上: Control + ↑ */
+            <&kp LG(LA(L))>; /* 下: Command + Option + L */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
     };
 };
+
 
 / {
     combos {
