@@ -19,10 +19,10 @@
     arrows_1 {
         layers = <7>;
         bindings =
-            <&kp LC(LA(RIGHT_ARROW))>, /* 右: Control + Option + → */
-            <&kp LC(LA(LEFT_ARROW))>, /* 左: Control + Option + ← */
-            <&kp LC(LA(ENTER))>, /* 上: Control + Option + Enter */
-            <&kp LC(LA(BACKSPACE))>; /* 下: Control + Option + Backspace */
+            <&kp LG(RIGHT_ARROW)>, /* 右: Command + → */
+            <&kp LG(LEFT_ARROW)>, /* 左: Command + ← */
+            <&kp LG(UP_ARROW)>, /* 上: Command + ↑ */
+            <&kp LG(DOWN_ARROW)>; /* 下: Command + ↓ */
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
