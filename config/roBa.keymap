@@ -20,13 +20,18 @@
         layers = <7>;
         bindings =
             <&kp LG(RIGHT_ARROW)>,
+            ,,
             /* 右: Command + → */,
             <&kp LG(LEFT_ARROW)>,
+            ,,
             /* 左: Command + ← */,
             <&kp LG(UP_ARROW)>,
+            ,,
             /* 上: Command + ↑ */,
             <&kp LG(DOWN_ARROW)>;
- /* 下: Command + ↓ */
+
+        /* 下: Command + ↓ */
+
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -38,13 +43,18 @@
         layers = <8>;
         bindings =
             <&kp LC(PAGE_DOWN)>,
+            ,,
             /* 右: Control + PageDown (右のタブへ) */,
             <&kp LC(PAGE_UP)>,
+            ,,
             /* 左: Control + PageUp (左のタブへ) */,
             <&kp LC(T)>,
+            ,,
             /* 上: Control + T */,
             <&kp LC(W)>;
- /* 下: Control + W */
+
+        /* 下: Control + W */
+
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -56,13 +66,18 @@
         layers = <9>;
         bindings =
             <&kp LG(LC(RIGHT_ARROW))>,
+            ,,
             /* 右: Win + Ctrl + → */,
             <&kp LG(LC(LEFT_ARROW))>,
+            ,,
             /* 左: Win + Ctrl + ← */,
             <&kp LG(TAB)>,
+            ,,
             /* 上: Win + Tab */,
             <&kp LG(LA(L))>;
- /* 下: Command + Option + L */
+
+        /* 下: Command + Option + L */
+
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -139,10 +154,10 @@
 
         default_layer {
             bindings = <
-&mt LS(LG(S)) Q   &kp W       &kp E   &kp R                   &kp T                                                               &kp Y                         &kp U  &lt 5 I    &lt 7 O  &kp P
-&kp A             &kp S       &kp D   &kp F                   &kp G      &kp LC(HOME)         &mt LG(RIGHT_ARROW) LG(LEFT_ARROW)  &kp H                         &kp J  &kp K      &kp L    &lt 8 MINUS
-&mt LEFT_SHIFT Z  &kp X       &kp C   &kp V                   &kp B      &kp F12              &kp LG(LS(LEFT_ARROW))              &kp N                         &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LG(TAB)       &kp ESCAPE  &trans  &mt LEFT_CONTROL LANG2  &kp SPACE  &lt 2 BACKSPACE      &lt 1 ENTER                         &mt RIGHT_CONTROL LANGUAGE_1                             &kp DELETE
+&mt LS(LG(S)) Q   &kp W       &kp E   &kp R                   &kp T                                                   &kp Y                         &kp U  &lt 5 I    &lt 7 O  &kp P
+&kp A             &kp S       &kp D   &kp F                   &kp G      &kp LC(HOME)         &mt LC(MINUS) LC(PLUS)  &kp H                         &kp J  &kp K      &kp L    &lt 8 MINUS
+&mt LEFT_SHIFT Z  &kp X       &kp C   &kp V                   &kp B      &kp F12              &kp LG(LS(LEFT_ARROW))  &kp N                         &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LG(TAB)       &kp ESCAPE  &trans  &mt LEFT_CONTROL LANG2  &kp SPACE  &lt 2 BACKSPACE      &lt 1 ENTER             &mt RIGHT_CONTROL LANGUAGE_1                             &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PG_UP) LC(PAGE_DOWN)>;
