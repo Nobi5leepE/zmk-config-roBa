@@ -22,7 +22,7 @@
             <&kp LG(RIGHT_ARROW)>, /* 右: Command + → */
             <&kp LG(LEFT_ARROW)>, /* 左: Command + ← */
             <&kp LG(UP_ARROW)>, /* 上: Command + ↑ */
-            <&kp LG(DOWN_ARROW)>; i/* 下: Command + ↓ */
+            <&kp LG(DOWN_ARROW)>; /* 下: Command + ↓ */
 
         tick = <1000>;
         wait-ms = <5>;
