@@ -19,14 +19,10 @@
     arrows_1 {
         layers = <7>;
         bindings =
-            <&kp LG(RIGHT_ARROW)>,
-            /* 右: Command + → */,
-            <&kp LG(LEFT_ARROW)>,
-            /* 左: Command + ← */,
-            <&kp LG(UP_ARROW)>,
-            /* 上: Command + ↑ */,
-            <&kp LG(DOWN_ARROW)>;
- /* 下: Command + ↓ */
+            <&kp LG(RIGHT_ARROW)>, /* 右: Command + → */
+            <&kp LG(LEFT_ARROW)>, /* 左: Command + ← */
+            <&kp LG(UP_ARROW)>, /* 上: Command + ↑ */
+            <&kp LG(DOWN_ARROW)>; /* 下: Command + ↓ */
         tick = <1000>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -37,14 +33,10 @@
     arrows_2 {
         layers = <8>;
         bindings =
-            <&kp LC(PAGE_DOWN)>,
-            /* 右: Control + PageDown (右のタブへ) */,
-            <&kp LC(PAGE_UP)>,
-            /* 左: Control + PageUp (左のタブへ) */,
-            <&kp LC(T)>,
-            /* 上: Control + T */,
-            <&kp LC(W)>;
- /* 下: Control + W */
+            <&kp LC(PAGE_DOWN)>, /* 右: Control + PageDown (右のタブへ) */
+            <&kp LC(PAGE_UP)>, /* 左: Control + PageUp (左のタブへ) */
+            <&kp LC(T)>, /* 上: Control + T */
+            <&kp LC(W)>; /* 下: Control + W */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
@@ -55,14 +47,10 @@
     arrows_3 {
         layers = <9>;
         bindings =
-            <&kp LG(LC(RIGHT_ARROW))>,
-            /* 右: Win + Ctrl + → */,
-            <&kp LG(LC(LEFT_ARROW))>,
-            /* 左: Win + Ctrl + ← */,
-            <&kp LG(TAB)>,
-            /* 上: Win + Tab */,
-            <&kp LG(LA(L))>;
- /* 下: Command + Option + L */
+            <&kp LG(LC(RIGHT_ARROW))>, /* 右: Win + Ctrl + → */
+            <&kp LG(LC(LEFT_ARROW))>, /* 左: Win + Ctrl + ← */
+            <&kp LG(TAB)>, /* 上: Win + Tab */
+            <&kp LG(LA(L))>; /* 下: Command + Option + L */
         tick = <300>;
         wait-ms = <5>;
         tap-ms = <5>;
