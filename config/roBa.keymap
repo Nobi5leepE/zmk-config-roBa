@@ -47,8 +47,8 @@
     arrows_3 {
         layers = <9>;
         bindings =
-            <&kp LG(LC(RIGHT_ARROW))>, /* 右: Win + Ctrl + → */
-            <&kp LG(LC(LEFT_ARROW))>, /* 左: Win + Ctrl + ← */
+            <&kp LG(LC(LEFT_ARROW))>, /* 右: Win + Ctrl + → */
+            <&kp LG(LC(RIGHT_ARROW))>, /* 左: Win + Ctrl + ← */
             <&kp LG(TAB)>, /* 上: Win + Tab */
             <&kp LG(LA(L))>; /* 下: Command + Option + L */
         tick = <300>;
